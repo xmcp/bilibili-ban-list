@@ -1,0 +1,35 @@
+<filters>
+
+  <!-- 无意义弹幕 -->
+  <item enabled="true">t=.{50}</item> <!-- 超长弹幕 -->
+  <item enabled="true">t=^[\.。,，/\?？!！~～@\^、+=\-_]{1,3}$</item> <!-- 无意义符号 -->
+
+  <!-- 建筑美 -->
+  <item enabled="true">t=弹幕墙</item>
+  <item enabled="true">t=倍速</item>
+  <item enabled="true">t=\S\s{2,}\S+\s{2,}\S</item> <!-- 立  体  弹  幕 -->
+  
+  <!-- 播放相关 -->
+  <item enabled="true">t=^[第前][0-9零一二三四五六七八九十百千万亿].{0,6}$</item>
+  <item enabled="true">t=破.*[wW万萬]</item>
+  <item enabled="true">t=[wW万萬]助攻</item>
+  <item enabled="true">t=口[气氣].*[集级]</item>
+  
+  <!-- 空降 -->
+  <item enabled="true">t=空降(成功|失败)</item>
+  <item enabled="true">t=完美空降</item>
+  
+  <!-- 漂移 -->
+  <item enabled="true">t=[漂飘飄][移逸遗]</item>
+  <item enabled="true">t=[左右][漂飘飄]</item>
+  
+  <!-- 跟风刷屏 -->
+  <item enabled="true">t=入宅</item> <!-- xx（作品名）入宅 -->
+  <item enabled="true">t=^什么[!\?！？，,、~\s]</item> <!-- 什么？xxxx了！？ -->
+  <item enabled="true">t=^《.*》$</item> <!-- 书名刷屏 -->
+  
+  <!-- 日期相关 -->
+  <item enabled="true">t=^\d{1,2}[\.,\/:：、，；\s点\-月]\d{1,2}.{0,3}[$的]</item> <!-- 1月11的路过 -->
+  <item enabled="true">t=\d\d(\d\d)?[\.,。，、\s/\-]\d(\d)?[\.,。，、\s/\-]\d(\d)?</item> <!-- 2000.1.11路过 -->
+  
+</filters>
