@@ -16,7 +16,7 @@
   <item enabled="true">t=口[气氣].*[集级]</item>
   
   <!-- 空降 -->
-  <item enabled="true">t=空降(成功|失败)</item>
+  <item enabled="true">t=降.{0,3}(成功|失败)</item>
   <item enabled="true">t=完美空降</item>
   
   <!-- 漂移 -->
