@@ -3,6 +3,7 @@
   <!-- 无意义弹幕 -->
   <item enabled="true">t=.{50}</item> <!-- 超长弹幕 -->
   <item enabled="true">t=^[\.。,，/\?？!！~～@\^、+=\-_]{1,3}$</item> <!-- 无意义符号 -->
+  <item enabled="true">t=^[^\u4E00-\u9FA5]$</item> <!-- 单个非中文字符 -->
 
   <!-- 建筑美 -->
   <item enabled="true">t=弹幕墙</item>
