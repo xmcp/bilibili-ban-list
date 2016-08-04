@@ -18,8 +18,9 @@
   <item enabled="true">t=[0-9万名].{1,6}[伴你们人]($|.*[号好])</item> <!-- 12450个小伙伴好 -->
   
   <!-- 空降 -->
-  <item enabled="true">t=降.{0,3}(成功|失败)</item>
+  <item enabled="true">t=降.{0,3}(成功|失败|完美)</item>
   <item enabled="true">t=完美空降</item>
+  <item enabled="true">t=空难现场</item>
   
   <!-- 漂移 -->
   <item enabled="true">t=[漂飘飄][移逸遗]</item>
@@ -29,6 +30,8 @@
   <item enabled="true">t=入宅</item> <!-- xx（作品名）入宅 -->
   <item enabled="true">t=^什么[!\?！？，,、~\s]</item> <!-- 什么？xxxx了！？ -->
   <item enabled="true">t=^《.*》$</item> <!-- 书名刷屏 -->
+  <item enabled="true">t=^告诉.*[我还永]</item> <!-- 告诉xx我爱她 -->
+  <item enabled="true">t=暴露(时间)?了</item> <!-- 我也暴露了 -->
   
   <!-- 日期相关 -->
   <item enabled="true">t=^\d{1,2}[\.,\/:：、，；\s点\-月]\d{1,2}.{0,3}($|的)</item> <!-- 1月11的路过 -->
