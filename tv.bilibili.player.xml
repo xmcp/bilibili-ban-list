@@ -6,9 +6,10 @@
   <item enabled="true">t=^[^\u4E00-\u9FA5]$</item> <!-- 单个非中文字符 -->
 
   <!-- 建筑美 -->
-  <item enabled="true">t=弹幕墙</item>
+  <item enabled="true">t=弹幕</item> <!-- 弹幕墙、弹幕测试…… 可能误伤弹幕护体 -->
   <item enabled="true">t=倍速</item>
   <item enabled="true">t=\S\s{2,}\S+\s{2,}\S</item> <!-- 立  体  弹  幕 -->
+  <item enabled="true">t=(^|是).{1,4}[红橙黄绿青蓝紫黑白灰].{0,2}$</item> <!-- 颜色 -->
   
   <!-- 播放相关 -->
   <item enabled="true">t=^[第前][0-9零一二三四五六七八九十百千万亿].{0,6}$</item>
@@ -31,7 +32,10 @@
   <item enabled="true">t=^什么[!\?！？，,、~\s]</item> <!-- 什么？xxxx了！？ -->
   <item enabled="true">t=^《.*》$</item> <!-- 书名刷屏 -->
   <item enabled="true">t=^告诉.*[我还永]</item> <!-- 告诉xx我爱她 -->
-  <item enabled="true">t=暴露(时间)?了</item> <!-- 我也暴露了 -->
+  <item enabled="true">t=暴[露漏](时间)?了</item> <!-- 我也暴露了 -->
+  
+  <!-- 无意义撕逼 -->
+  <item enabled="true">t=[fF]{3}.*(真爱|百合|基|性恋)</item> <!-- 不烧真爱的FFF团不是真正的FFF团 -->
   
   <!-- 日期相关 -->
   <item enabled="true">t=^\d{1,2}[\.,\/:：、，；\s点\-月]\d{1,2}.{0,3}($|的)</item> <!-- 1月11的路过 -->
