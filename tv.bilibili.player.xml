@@ -17,7 +17,9 @@
   <item enabled="true">t=[wW万萬]助攻</item>
   <item enabled="true">t=口[气氣].*[集级]</item>
   <item enabled="true">t=[0-9万名].{1,6}[伴你们人]($|.*[号好])</item> <!-- 12450个小伙伴好 -->
-  
+  <item enabled="true">t=暂停看(红|绿|蓝|紫|白|黄|橙|黑)字</item> <!-- 暂停看红字 -->
+  <item enabled="true">t=[0-9]{4}.*考古</item> <!-- 2017春节，前来考古 -->
+
   <!-- 空降 -->
   <item enabled="true">t=降.{0,3}(成功|失败|完美)</item>
   <item enabled="true">t=完美空降</item>
@@ -33,11 +35,24 @@
   <item enabled="true">t=^《.*》$</item> <!-- 书名刷屏 -->
   <item enabled="true">t=^告诉.*[我还永]</item> <!-- 告诉xx我爱她 -->
   <item enabled="true">t=暴[露漏](时间)?[了啦拉]</item> <!-- 我也暴露了 -->
+  <item enabled="true">t=前面[\S\s]*等等我</item> <!-- 前面xxx的等等我 -->
+  <item enabled="true">t=(只有|不止)我一个人</item> <!-- 绝对不止我一个人 -->
+  <item enabled="true">t=永动</item> <!-- 永动系列 -->
+  <item enabled="true">t=[a-zA-z]+好燃</item> <!-- BGM好燃 -->
+  <item enabled="true">t=(恐惧|强迫|深恐|密恐|尴尬)症?</item>
+  <item enabled="true">t=(会员|彩色弹幕)</item>
+  <item enabled="true">t=(消灭人类暴政|世界属于三体)</item>
+  <item enabled="true">t=(好大的鱼|虎纹鲨鱼)</item>
+  <item enabled="true">t=阿姆斯特朗</item>
+  <item enabled="true">t=向.*宣战</item> <!-- xxxx向魔女教宣战 -->
+  <item enabled="true">t=看到.*[点进来]+</item> <!-- 看到东方就点进来了 -->
   
   <!-- 无意义撕逼 -->
   <item enabled="true">t=[fF]{3}.*(真爱|百合|基|性恋)</item> <!-- 不烧真爱的FFF团不是真正的FFF团 -->
   <item enabled="true">t=豆腐.*[酸甜苦辣咸臭糖盐醋]</item>
   <item enabled="true">t=[酸甜苦辣咸臭糖盐醋].*豆腐</item> <!-- 要是B站的正则支持负向零宽断言，其实是可以写在一行里的 -->
+  <item enabled="true">t=自己(右上角|滚)</item>
+  <item enabled="true">t=(脑子有病|滚出去|刷屏|逼你看|吃屎)</item>
   
   <!-- 日期相关 -->
   <item enabled="true">t=^\d{1,2}[\.,\/:：、，；\s点\-月]\d{1,2}.{0,3}($|的)</item> <!-- 1月11的路过 -->
