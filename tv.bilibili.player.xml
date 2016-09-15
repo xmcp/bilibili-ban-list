@@ -21,7 +21,7 @@
   <!-- 空降 -->
   <item enabled="true">t=降.{0,3}(成功|失败|完美)</item>
   <item enabled="true">t=完美空降</item>
-  <item enabled="true">t=空难现场</item>
+  <item enabled="true">t=空难(现场|$)</item>
   
   <!-- 漂移 -->
   <item enabled="true">t=[漂飘飄][移逸遗]</item>
