@@ -12,7 +12,7 @@
   <item enabled="true">t=(^|是)..[红橙黄绿青蓝紫黑白灰].{0,2}$</item> <!-- 颜色 -->
   
   <!-- 播放相关 -->
-  <item enabled="true">t=^[第前][0-9零一二三四五六七八九十百千万亿].{0,6}$</item>
+  <item enabled="true">t=^[第前]([0-9零一二两三四五六七八九十百千万亿].{0,6})?$</item>
   <item enabled="true">t=破.*[wW万萬]</item>
   <item enabled="true">t=[wW万萬]助攻</item>
   <item enabled="true">t=口[气氣].*[集级]</item>
