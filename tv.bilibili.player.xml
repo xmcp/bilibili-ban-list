@@ -2,7 +2,7 @@
 
   <!-- 无意义弹幕 -->
   <item enabled="true">t=.{50}</item> <!-- 超长弹幕 -->
-  <item enabled="true">t=^[\.。,，/\?？!！~～@\^、+=\-_]+$</item> <!-- 无意义符号 -->
+  <item enabled="true">t=^[\.。,，/\?？!！~～@\^、+=\-_ ]+$</item> <!-- 无意义符号 -->
   <item enabled="true">t=^[^\u4E00-\u9FA5]$</item> <!-- 单个非中文字符 -->
 
   <!-- 建筑美 -->
@@ -26,6 +26,7 @@
   <!-- 漂移 -->
   <item enabled="true">t=[漂飘飄][移逸遗]</item>
   <item enabled="true">t=[左右][漂飘飄]</item>
+  <item enabled="true">t=(\s|^|[我怎来].?)[漂飘飄]+($|[~?？。，]|\s)</item>
   
   <!-- 跟风刷屏 -->
   <item enabled="true">t=入宅</item> <!-- xx（作品名）入宅 -->
