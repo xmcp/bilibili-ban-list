@@ -24,9 +24,10 @@
   <item enabled="true">t=空难(现场|$)</item>
   
   <!-- 漂移 -->
-  <item enabled="true">t=[漂飘飄][移逸遗]</item>
-  <item enabled="true">t=[左右][漂飘飄]</item>
-  <item enabled="true">t=(\s|^|[我怎来].?)[漂飘飄]+($|[~?？。，]|\s)</item>
+  <item enabled="true">t=[漂飘飄飙][移逸遗]</item>
+  <item enabled="true">t=[左右][漂飘飄飙]</item>
+  <item enabled="true">t=(\s|^|[我怎来会].?)[漂飘飄飙]+($|.?[～~?？。，啊]|\s)</item>
+  <item enabled="true">t=\s{5}</item>
   
   <!-- 跟风刷屏 -->
   <item enabled="true">t=入宅</item> <!-- xx（作品名）入宅 -->
