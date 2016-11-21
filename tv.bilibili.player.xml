@@ -37,6 +37,7 @@
   <item enabled="true">t=暴[露漏](时间)?[了啦拉]</item> <!-- 我也暴露了 -->
   <item enabled="true">t=[拉啦雷蕾][姆母拇]</item> <!-- 实在忍不下去了，看re:0时请自行禁用 -->
   <item enabled="true">t=周目($|.*(我|回|起|报|人|过|来|此))</item> <!-- N周目加我一个 -->
+  <item enabled="true">t=170001</item> <!-- 足控福利！腿控福利！全裸福利！萝莉福利！ -->
   
   <!-- 无意义撕逼 -->
   <item enabled="true">t=[fF]{3}.*(真爱|百合|基|性恋)</item> <!-- 不烧真爱的FFF团不是真正的FFF团 -->
