@@ -1,9 +1,9 @@
 <filters>
 
   <!-- 无意义弹幕 -->
-  <item enabled="true">t=.{50}</item> <!-- 超长弹幕 -->
-  <item enabled="true">t=^[\.。,，/\?？!！~～@\^、+=\-_ ]+$</item> <!-- 无意义符号 -->
-  <item enabled="true">t=^[^\u4E00-\u9FA5]$</item> <!-- 单个非中文字符 -->
+  <item enabled="true">r=.{50}</item> <!-- 超长弹幕 -->
+  <item enabled="true">r=^[\.。,，/\?？!！~～@\^、+=\-_ ]+$</item> <!-- 无意义符号 -->
+  <item enabled="true">r=^[^\u4E00-\u9FA5]$</item> <!-- 单个非中文字符 -->
 
   <!-- 建筑美 -->
   <item enabled="true">r=弹\s*幕(?!护\s*体)</item> <!-- 弹幕墙、弹幕测试…… 防止误伤弹幕护体 -->
