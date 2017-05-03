@@ -8,7 +8,7 @@
   <!-- 建筑美 -->
   <item enabled="true">r=弹\s*幕(?!护\s*体)</item> <!-- 弹幕墙、弹幕测试…… 防止误伤弹幕护体 -->
   <item enabled="true">r=倍速</item>
-  <item enabled="true">r=\S\s{2,}\S+\s{2,}\S</item> <!-- 立  体  弹  幕 -->
+  <item enabled="true">r=[3３三立]\s+[dDＤ体體]</item> <!-- 立  体  弹  幕 -->
   <item enabled="true">r=(^|是)..[红橙黄绿青蓝紫黑白灰].{0,2}$</item> <!-- 颜色 -->
   
   <!-- 播放相关 -->
@@ -32,7 +32,7 @@
   <item enabled="true">r=\s{5}</item>
   
   <!-- 跟风刷屏 -->
-  <item enabled="true">r=入宅</item> <!-- xx（作品名）入宅 -->
+  <item enabled="true">r=入(宅|坑$)</item> <!-- xx（作品名）入宅 -->
   <item enabled="true">r=^什么[!\?！？，,、~\s]</item> <!-- 什么？xxxx了！？ -->
   <item enabled="true">r=^《.*》$</item> <!-- 书名刷屏 -->
   <item enabled="true">r=^告诉.*[我还永]</item> <!-- 告诉xx我爱她 -->
