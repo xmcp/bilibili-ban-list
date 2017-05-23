@@ -1,3 +1,6 @@
+### 【网页端 Chrome 用户建议配合 [xmcp/pakku.js](https://github.com/xmcp/pakku.js) 扩展程序使用以起到史诗级的防弹幕刷屏效果】
+
+
 # bilibili-ban-list
 居家旅行常备的B站弹幕屏蔽列表
 
