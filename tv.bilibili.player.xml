@@ -6,7 +6,7 @@
   <item enabled="true">r=^[^\u4E00-\u9FA5]$</item> <!-- 单个非中文字符 -->
 
   <!-- 建筑美 -->
-  <item enabled="true">r=弹\s*幕[^护]*$</item> <!-- 弹幕墙、弹幕测试…… 防止误伤弹幕护体 -->
+  <item enabled="true">r=弹\s*[屏幕][^护]*$</item> <!-- 弹幕墙、弹幕测试…… 防止误伤弹幕护体 -->
   <item enabled="true">t=倍速</item>
   <item enabled="true">r=[3３三立]\s+[dDＤ体體]</item> <!-- 立  体  弹  幕 -->
   <item enabled="true">r=(^|是)..[红橙黄绿青蓝紫黑白灰].{0,2}$</item> <!-- 颜色 -->
