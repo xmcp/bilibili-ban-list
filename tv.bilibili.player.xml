@@ -19,6 +19,7 @@
   <item enabled="true">r=口[气氣].*[集级]</item>
   <item enabled="true">t=完结</item>
   <item enabled="true">t=撒花</item>
+  <item enabled="true">t=从左到右</item>
   <item enabled="true">r=[0-9万名].{1,6}[伴你们人友]($|.*[豪嚎号好])</item> <!-- 12450个小伙伴好 -->
   
   <!-- 空降 -->
