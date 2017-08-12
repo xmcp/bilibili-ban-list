@@ -16,6 +16,7 @@
   <item enabled="true">r=^.{1,6}[天时点分钟秒]前</item>
   <item enabled="true">r=破.*[wW万萬]</item>
   <item enabled="true">r=[wW万萬]助攻</item>
+  <item enabled="true">r=钟的?诅咒</item>
   <item enabled="true">r=口[气氣].*[集级]</item>
   <item enabled="true">t=完结</item>
   <item enabled="true">t=撒花</item>
