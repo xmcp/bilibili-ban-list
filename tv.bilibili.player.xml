@@ -38,7 +38,7 @@
   <item enabled="true">r=^什么[!\?！？，,、~\s]</item> <!-- 什么？xxxx了！？ -->
   <item enabled="true">r=^《.*》$</item> <!-- 书名刷屏 -->
   <item enabled="true">r=^告诉.*[我还永]</item> <!-- 告诉xx我爱她 -->
-  <item enabled="true">r=暴[露漏](时间)?[了乐啦拉]</item> <!-- 我也暴露了 -->
+  <item enabled="true">r=暴[露漏]((补番)?时间)?[了乐啦拉]</item> <!-- 我也暴露了 -->
   <item enabled="true">r=周目($|.*(我|回|起|报|人|过|来|此))</item> <!-- N周目加我一个 -->
   <item enabled="true">r=つロ|[干肝乾]杯</item> <!-- bilibili干杯 -->
   <item enabled="true">r=[马馬][冬东]|[冬东]梅|[马馬]什么梅</item>
