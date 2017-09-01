@@ -14,6 +14,7 @@
   <!-- 播放相关 -->
   <item enabled="true">r=^[第前]([0-9零一二两三四五六七八九十百千万亿].{0,6})?$</item>
   <item enabled="true">r=^.{1,6}[天时点分钟秒]前</item>
+  <item enabled="true">r=^[0-9零一二两三四五六七八九十百千万亿nN]{1,4}(刷|周[木目])$</item>
   <item enabled="true">r=破.*[wW万萬]</item>
   <item enabled="true">r=[wW万萬]助攻</item>
   <item enabled="true">r=钟的?诅咒</item>
