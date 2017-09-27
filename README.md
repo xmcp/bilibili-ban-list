@@ -1,4 +1,4 @@
-### 【网页端 Chrome 用户建议配合 [xmcp/pakku.js](https://github.com/xmcp/pakku.js) 扩展程序使用以起到史诗级的防弹幕刷屏效果】
+### 【电脑 Chrome / Firefox 用户建议配合 [xmcp/pakku.js](https://github.com/xmcp/pakku.js) 使用以起到史诗级的防弹幕刷屏效果】
 
 
 # bilibili-ban-list
